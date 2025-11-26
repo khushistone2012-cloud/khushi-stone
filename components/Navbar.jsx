@@ -21,6 +21,7 @@ export default function Navbar() {
 
   // Pages that have a hero image (no extra padding)
   const heroPages = ["/about", "/services", "/gallery", "/contact", "/terms"];
+  
   const needsPadding = !heroPages.includes(pathname);
 
   // WhatsApp setup
