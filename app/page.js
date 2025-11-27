@@ -1,18 +1,23 @@
 export const metadata = {
-  title: "Top Grey Granite Supplier in India | Best Granite Exporter Bangalore | Khushi Stone",
+  title: "Khushi Stone — Grey Granite Supplier, Bangalore",
   description:
-    "Khushi Stone is among the top grey granite suppliers in India, manufacturing and exporting Adgal Grey, Sira Grey and Sadahalli Grey granite slabs from Bangalore to customers worldwide.",
+    "Khushi Stone supplies premium grey granite (Sira, Adgal, Sadahalli) from our Bangalore factory. Exporters of high-quality slabs for contractors and wholesalers.",
   keywords: [
     "top grey granite supplier india",
+    "marbel" ,"granite ","tiles",
     "top 10 granite manufacturers bangalore",
+    "best granite suppliers in india",
     "best granite exporter india",
+    "best granite dealer in world",
     "grey granite slabs supplier",
+     "grey granite tiles supplier",
     "adgal grey granite",
     "sira grey granite",
     "sadahalli grey granite",
     "granite factory bangalore"
   ],
   robots: "index, follow",
+  alternates: { canonical: "https://khushistone.com/" },
   openGraph: {
     title: "Top Granite Manufacturer in India | Khushi Stone",
     description:
@@ -35,6 +40,7 @@ import PageHeader from "@/components/PageHeader";
 export default function HomePage() {
   return (
     <>
+   
       
       <Slideshow />
       <AboutTeaser />

@@ -32,7 +32,7 @@ export default function WhyChooseUs() {
           Why Choose Us
         </h2>
         <p className="text-gray-500 text-base sm:text-lg mb-12 max-w-2xl mx-auto">
-          Discover the values that make us a trusted name in natural stone —
+          Discover the values that make us a trusted name in granite industry —
           precision, passion, and perfection.
         </p>
 
