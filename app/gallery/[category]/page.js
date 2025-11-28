@@ -6,13 +6,15 @@ import { useGalleryStore } from "../../../store/galleryStore";
 import Link from "next/link";
 
 // Valid categories and descriptions
-const VALID_CATEGORIES = ["adgal", "sira", "sadahalli", "factory"];
+const VALID_CATEGORIES = ["adgal", "sira", "sadahalli", "factory","projects"];
 const DESCRIPTIONS = {
   adgal: "Adgal grey granite, high-quality slabs from Khushi Stone.",
   sira: "Sira grey granite, perfect for flooring and countertops.",
   sadahalli: "Sadahalli grey granite, premium selection from our factory.",
   factory:
     "Where innovation meets tradition — see how Khushi Stone Factory brings life to stone",
+  projects:
+    "Explore our  projects showcasing the elegance of Khushi Stone grey granite.",
 };
 
 // NotFound component for invalid category

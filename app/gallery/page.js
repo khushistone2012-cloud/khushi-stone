@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useGalleryStore } from "../../store/galleryStore";
 
 export default function GalleryPage() {
-  const categories = ["adgal", "sira", "sadahalli", "factory"];
+  const categories = ["adgal", "sira", "sadahalli", "factory","projects"];
   const { images } = useGalleryStore();
 
   return (

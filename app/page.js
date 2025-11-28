@@ -43,9 +43,13 @@ export default function HomePage() {
    
       
       <Slideshow />
+      
+      
+
       <AboutTeaser />
-      <WhyChooseUs />
+      
       <ProductShowcase/>
+      <WhyChooseUs />
       <Testimonials/>
       
     </>

@@ -8,11 +8,13 @@ export const useGalleryStore = create((set) => ({
     sira: ["/sira/1.jpg","/sira/2.jpg","/sira/3.jpg","/sira/4.jpg","/sira/5.jpg","/sira/6.jpg"],
     sadahalli: ["/sadahalli/1.jpg","/sadahalli/2.jpg","/sadahalli/3.jpg","/sadahalli/4.jpg","/sadahalli/5.jpg","/sadahalli/6.jpg"],
     factory: ["/factory gallery/1.jpg","/factory gallery/2.jpg","/factory gallery/3.jpg","/factory gallery/4.jpg","/factory gallery/5.jpg","/factory gallery/6.jpg"],
+    projects: ["/projects/1.jpg","/projects/2.jpg","/projects/3.jpg","/projects/4.jpg","/projects/5.jpg"],
   },
  descriptions: {
     adgal: "Adgal grey granite is known for its durability and elegance.",
     sira: "Sira grey granite adds a premium touch to any space.",
     sadahalli: "Sadahalli grey granite is perfect for flooring and slabs.",
     factory: "Our factory produces slabs and tiles with precision and care.",
+    projects: "Explore our projects showcasing the elegance of Khushi Stone grey granite.",
   },
 }));
